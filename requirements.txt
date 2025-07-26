@@ -1,0 +1,7 @@
+streamlit
+requests
+pandas
+altair
+reportlab
+altair-saver
+vl-convert-python
