@@ -38,14 +38,8 @@ single_domain = st.text_input(
     "Enter a company domain below to analyze and score it based on key attributes.",
     placeholder="e.g. stripe.com",
 )
-# api_key = st.secrets["api"]["api_key"]
 
-# Safe access to secrets
-api_key = st.secrets["api"].get("api_key") if "api" in st.secrets else None
-
-if not api_key:
-    st.error("API key not found. Please check your `.streamlit/secrets.toml` file.")
-    st.stop()  # stop the app if the key is critical
+api_key = st.secrets["api"]["api_key"]
 
 
 # ---- Scoring Function ----
