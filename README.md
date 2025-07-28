@@ -25,6 +25,9 @@ VC firms are increasingly data-driven. This app mimics a simplified version of i
 - **Hunter.io API** (for real-time domain lookups)
 - **ReportLab** (PDF export)
 
+## Live Demo
+Try the app online here: [https://startup-scoring-tool.streamlit.app](https://startup-scoring-tool.streamlit.app)
+
 ## Run Locally
 
 1. Clone this repo
