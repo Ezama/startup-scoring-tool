@@ -8,8 +8,6 @@ from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, 
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
-from selenium import webdriver
-from altair import Chart
 from reportlab.platypus import Image  # Add this to your import section if not there
 
 import io
